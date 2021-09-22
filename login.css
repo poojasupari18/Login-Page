@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background :url(https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80) no-repeat;
+    background-size:cover;
+}
+.login {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#usr{
+    margin :5px;
+}
+
+#usr:hover{
+    border :2px solid rgb(46, 63, 71);
+}
+
+#pwd{
+    margin-bottom:  5px;
+    margin-left: 8px;
+}
+
+#pwd:hover{
+    border :2px solid rgb(46, 63, 71);
+}
+
+.button{
+    width: 100px;
+    margin-left: 5em;
+}
+h1{
+    
+    border-bottom: 2px solid rgb(31, 85, 110);
+    padding-bottom: 0.2em;
+}
+
+.button:hover{
+   
+transform: scale(1.2);
+}
+
+
